@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messy Blankets by Foundational Things</title>
+    <style>
+      :root {
+        --bg: #ffffee;
+        --text: #33466c;
+        --accent: #666;
+        --font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: var(--font);
+        background-color: var(--bg);
+        color: var(--accent);
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .banner {
+        width: 100vw;
+        margin: 0 auto 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-weight: 400;
+      }
+
+      p {
+        font-size: 1rem;
+        color: var(--accent);
+        margin: 0.5rem 3rem 0.5rem 3rem;
+      }
+
+      @media (min-width: 768px) {
+        h1 {
+          font-size: 1.8rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+
+      @media (max-width: 680px) {
+        h1 {
+          font-size: 1rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./Messy Blankets intro banner.png"
+        alt="Messy Blankets banner image"
+        class="banner"
+      />
+      <h1>Welcome to Messy Blankets.</h1>
+      <p>
+        We're building a people-powered space for untangling problems and
+        stitching together better ways forward.
+      </p>
+      <p>
+        It's not polished. It's not perfect. But it's real and it's open. Grab a
+        corner and pull.
+      </p>
+    </div>
+  </body>
+</html>
